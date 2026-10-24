@@ -1,15 +1,15 @@
-NAME    = libftprintf.a
+NAME	= libftprintf.a
 
-CC      = cc
+CC	= cc
 CFLAGS  = -Wall -Wextra -Werror
-AR      = ar rcs
-RM      = rm -f
+AR	= ar rcs
+RM	= rm -f
 
-SRCS    = printf.c \
-          printf2.c \
-          printf3.c
+SRCS	= printf.c \
+		printf2.c \
+		printf3.c
 
-OBJS    = $(SRCS:.c=.o)
+OBJS	= $(SRCS:.c=.o)
 
 all: $(NAME)
 
